@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { UserRepository } from '../repositories/userRepository';
-import { sendOtpEmail, sendPasswordResetEmail } from '../utils/email';
+import { sendPasswordResetEmail } from '../utils/email';
 
 const SALT_ROUNDS = 10;
 
